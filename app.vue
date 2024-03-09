@@ -1,20 +1,42 @@
+<script setup lang="ts">
+const route = useRoute()
+
+const links = [[{
+  label: 'dot\'s corner',
+  avatar: {
+    src: 'https://avatars.githubusercontent.com/u/83116565'
+  },
+}], [
+{
+  label: 'Links',
+  icon: 'i-heroicons-link',
+  to: '/'
+}, {
+  label: 'About',
+  icon: 'i-heroicons-pencil-solid',
+  to: `/about`
+}
+]]
+</script>
+
 <style>
 body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #FFFFFF7A 1px, rgba(0, 0, 0, 0) 1px);
 }
+
+.sm\:p-6 {
+  padding: 0.5rem;
+}
 </style>
 
 <template>
-  <UContainer>
-    <UCard class="mt-10">
-      <template #header>
-        <div class="flex justify-between">
-          <h1>Welcome to Nuxt UI Starter</h1>
-          <ColorScheme><USelect v-model="$colorMode.preference" :options="['system', 'light', 'dark']" /></ColorScheme>
-        </div>
-      </template>
-      <UButton icon="i-heroicons-book-open" to="https://ui.nuxt.com" target="_blank">Open Nuxt UI Documentation</UButton>
+  <UContainer class="mt-6">
+    <UCard class="mb-4">
+      <UHorizontalNavigation :links="links" />
+    </UCard>
+    <UCard>
+      <NuxtPage/>
     </UCard>
   </UContainer>
 </template>
