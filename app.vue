@@ -1,3 +1,10 @@
+<style>
+body {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #FFFFFF7A 1px, rgba(0, 0, 0, 0) 1px);
+}
+</style>
+
 <template>
   <UContainer>
     <UCard class="mt-10">
