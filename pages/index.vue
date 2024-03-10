@@ -1,14 +1,5 @@
 <script setup lang="ts">
 const route = useRoute()
-
-useSeoMeta({
-  title: 'dot\'s corner',
-  ogTitle: 'dot\'s corner',
-  description: 'dotPast\'s links website',
-  ogDescription: 'dotPast\'s links website',
-  ogImage: 'https://example.com/image.png',
-  twitterCard: 'summary_large_image',
-})
 </script>
 
 <style>
