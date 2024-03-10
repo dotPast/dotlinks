@@ -32,11 +32,22 @@ const links = [[{
 body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #FFFFFF7A 1px, rgba(0, 0, 0, 0) 1px);
+  animation: scroll 90s linear infinite; /* Adjust the duration (10s) as needed */
 }
 
 .sm\:p-6 {
   padding: 0.5rem;
 }
+
+@keyframes scroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
 </style>
 
 <template>
