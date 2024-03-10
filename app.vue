@@ -8,6 +8,22 @@ useSeoMeta({
   ogDescription: 'dotPast\'s links website',
   ogImage: '/ogimage.png',
   twitterCard: 'summary_large_image',
+  ogUrl: 'https://dottt.pages.dev',
+  twitterTitle: 'dot\'s corner',
+  twitterDescription: 'dotPast\'s links website',
+  twitterImage: '/ogimage.png'
+})
+
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      href: '/favicon.ico'
+    }
+  ]
 })
 
 const links = [[{
