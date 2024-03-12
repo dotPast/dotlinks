@@ -64,7 +64,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: ./dist
-    deploy:
+  deploy:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
