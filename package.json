@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "dotlinks",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,8 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt-themes/typography": "^1.0.1",
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.13.0",
-    "nuxt": "^3.10.1"
+    "nuxt": "^3.10.1",
+    "nuxt-shiki": "^0.2.1"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.12.1",
+    "shiki-es": "^0.14.0"
   }
 }

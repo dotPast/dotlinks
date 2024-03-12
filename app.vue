@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const route = useRoute()
 
+definePageMeta({
+  colorMode: 'dark',
+})
+
 useSeoMeta({
   title: 'dot\'s corner',
   ogTitle: 'dot\'s corner',
@@ -38,8 +42,12 @@ const links = [[{
   to: '/'
 }, {
   label: 'About',
-  icon: 'i-heroicons-pencil-solid',
+  icon: 'i-heroicons-user-16-solid',
   to: `/about`
+}, {
+  label: 'Blog',
+  icon: 'i-heroicons-pencil-solid',
+  to: `/blog/`
 }
 ]]
 </script>
@@ -64,6 +72,112 @@ body {
   }
 }
 
+/* Styles for blog */
+.code {
+  margin-top: 0.5rem;
+  padding: 1em;
+  border-radius: 0.5rem;
+  background-color: #24273a;
+}
+.lang-icon{
+  margin-bottom: 0.2rem;
+  margin-right: 0.2rem;
+}
+pre {
+  margin-top: 0.25rem;
+}
+/* Sorry Tailwind, but I REALLY want my headings back */
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+h4 { 
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+h5 { 
+    display: block;
+    font-size: .83em;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+h6 { 
+    display: block;
+    font-size: .67em;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  padding: 1em;
+  margin-top: 0.5rem;
+}
+
+.post {
+  background-color: #1a1a1a;
+  color: #FFF;
+}
+
+.note {
+  background-color: #FFF;
+  color: #000;
+}
+
+.tip {
+  background-color: #16a34a;
+  color: #FFF;
+}
+
+.warning {
+  background-color: #eab308;
+  color: #000;
+}
+
+.danger {
+  background-color: #ef4444;
+  color: #FFF;
+}
+.head-image {
+  object-fit: cover;
+  width: auto;
+  height: 10em;  
+  border-radius: 0.5em;
+  vertical-align: middle;
+  text-align: right;
+}
+.head-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.head-text {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+.date-text {
+  position: absolute;
+  font-size: x-small;
+  bottom: 2px;
+  left: 6px;
+}
 </style>
 
 <template>
@@ -71,7 +185,7 @@ body {
     <UCard class="mb-4">
       <UHorizontalNavigation :links="links" />
     </UCard>
-    <UCard>
+    <UCard class="mb-4">
       <NuxtPage/>
     </UCard>
   </UContainer>
