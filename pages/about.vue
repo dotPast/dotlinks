@@ -23,7 +23,7 @@
     This website is made with Nuxt UI and is my replacement for <a class="text-sky-500" href="https://linktr.ee" target="_blank">linktr.ee</a>, <a class="text-sky-500" href="https://solo.to" target="_blank">solo.to</a>, because I can do way more stuff on this page and I don't want to pay for styling.<br>
     Expect random stuff (like blog posts, updates) here. (and eventually a custom domain? would be cool and i won't have dottt.pages.dev url)
 
-    <br><br><br>oh and <a class="text-sky-500" href="https://twitch.tv/crimrosetv" target="_blank">crimrose</a> has XRay.
+    <br><br><br>oh and <a class="text-sky-500" href="https://twitch.tv/crimrosetv" target="_blank">crimrose</a> has XRay. (yep i removed that from my discord status but not from here)
   </div>
 </template>
 
