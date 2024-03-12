@@ -8,7 +8,7 @@
     </div>
   </aside>
   This is a post created for testing styling and other stuff before starting to write actual posts.<br>
-  I kept this as an easter egg, and for testing more stuff. and for copying snippets because this isn't Markdown
+  and for copying snippets because this isn't Markdown
   <h1>H1</h1>
   <h2>H2</h2>
   <h3>H3</h3>
