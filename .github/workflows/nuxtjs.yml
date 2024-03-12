@@ -64,11 +64,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: ./dist
-  deploy:
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - uses: actions/checkout@v4
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
