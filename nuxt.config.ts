@@ -6,4 +6,7 @@ export default defineNuxtConfig({
   shiki: {
     defaultTheme: "catppuccin-macchiato"
   },
+  colorMode: {
+    preference: 'dark'
+  }
 })
