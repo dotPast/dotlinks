@@ -1,6 +1,6 @@
 <template>
-  <h1 class="mb-0">dot(Name)</h1>
-  <p style="font-size: small;">something to read at night</p>
+  <h1 class="mb-0">dot's posts</h1>
+  <p style="font-size: small;">something to read at night i guess</p>
   <a href="/blog/test">
     <div class="card post">
       <UIcon name="heroicons:pencil-solid" dynamic/> / test
