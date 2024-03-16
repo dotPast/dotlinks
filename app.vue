@@ -34,8 +34,7 @@ const links = [[{
   label: 'dot\'s corner',
   avatar: {
     src: 'https://avatars.githubusercontent.com/u/83116565'
-  },
-  to: '/',
+  }
 }], [
 {
   label: 'Links',
