@@ -35,6 +35,7 @@ const links = [[{
   avatar: {
     src: 'https://avatars.githubusercontent.com/u/83116565'
   },
+  to: '/',
 }], [
 {
   label: 'Links',
