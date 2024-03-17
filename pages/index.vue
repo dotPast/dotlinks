@@ -66,7 +66,7 @@ useSeoMeta({
   <a href="http://youtube.com/@dotttpast" target="_blank" rel="noopener noreferrer">
     <div class="link-card youtube mt-4">
       <UIcon name="bi:youtube" dynamic/> / @dotttpast
-      <p>My Second YouTube. Mainly random content.</p>
+      <p>My Second YouTube. Used for stream VODs and other content.</p>
     </div>
   </a>
 
