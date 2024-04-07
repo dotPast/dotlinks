@@ -3,7 +3,7 @@
     o/, I'm dotPast (he/him) (aka. dottt, pasted).<br>
     I'm a self-taught developer, who loves archiving random stuff for some unknown reason, located in Russia (UTC+3).<br>
     I have been trying myself in coding since I was 8 years old, starting with a Python Discord bot.<br><br>
-    I daily drive Arch Linux (btw) with GNOME Desktop Environment (or, just DE) as my OS.<br>
+    I daily drive Arch Linux (btw) with KDE Plasma as my OS.<br>
     Currently I know (or tried): Python, HTML (+ CSS), JavaScript, Dart, Kotlin, Java, NuxtJS.<br>
     Also I have tried: Blender, Godot Engine<br><br>
     In icons, that's: (<UIcon name="i-heroicons-arrow-down-16-solid" dynamic/> from <a class="text-sky-500" href="http://skillicons.dev" target="_blank" rel="noopener noreferrer">Skill Icons</a>)<br>
