@@ -16,6 +16,9 @@
     <li>- BKStreemze - I am very happy after suffering from the magma cube spawner!</li>
     <img src="/bk.png" alt="">
   </ul>
+
+  <h2>Contact us</h2>
+  Email - imdotpast+fuckyouinparticular@gmail.com
 </template>
 
 <script lang="ts" setup>
