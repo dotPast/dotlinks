@@ -91,36 +91,42 @@ h1 {
     display: block;
     font-size: 2em;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-weight: bold;
 }
 h2 {
     display: block;
     font-size: 1.5em;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-weight: bold;
 }
 h3 { 
     display: block;
     font-size: 1.17em;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-weight: bold;
 }
 h4 { 
     display: block;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 h5 { 
     display: block;
     font-size: .83em;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 h6 { 
     display: block;
     font-size: .67em;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .card {
