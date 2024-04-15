@@ -18,7 +18,7 @@
   </ul>
 
   <h2>Contact us</h2>
-  Email - imdotpast+fuckyouinparticular@gmail.com
+  Email - fuckyouinparticular@national.shitposting.agency
 </template>
 
 <script lang="ts" setup>
