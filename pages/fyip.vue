@@ -9,7 +9,7 @@
   The company has been founded by dotPast and JustKrissTTV on April 14th, 2024.
 
   <h2>Our Sponsors</h2>
-  - BK's mom
+  - BK's mom: a single chicken nugget
 
   <h1>Testimonials from our happy customers (REAL NOT FAKE I SWEAR - dot)</h1>
   <ul>
