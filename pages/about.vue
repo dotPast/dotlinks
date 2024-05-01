@@ -17,7 +17,7 @@
       <UIcon class="about-icon" name="i-skill-icons-kotlin-dark" dynamic/>
       <UIcon class="about-icon" name="i-skill-icons-java-dark" dynamic/>
       <UIcon class="about-icon" name="i-skill-icons-nuxtjs-dark" dynamic/>
-      <UIcon class="about-icon" name="i-skill-icons-solidjs" dynamic/>
+      <UIcon class="about-icon" name="i-skill-icons-solidjs-dark" dynamic/>
       <UIcon class="about-icon" name="i-skill-icons-blender-dark" dynamic/>
       <UIcon class="about-icon" name="i-skill-icons-godot-dark" dynamic/>
     </div><br>
