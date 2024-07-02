@@ -81,4 +81,34 @@ a {
 
 <script setup lang="ts">
 const route = useRoute();
+
+definePageMeta({
+  colorMode: 'dark',
+})
+
+useSeoMeta({
+  title: 'dot\'s corner',
+  ogTitle: 'dot\'s corner',
+  description: 'dotPast\'s links website',
+  ogDescription: 'dotPast\'s links website',
+  ogImage: '/ogimage.png',
+  twitterCard: 'summary_large_image',
+  ogUrl: 'https://dottt.pages.dev',
+  twitterTitle: 'dot\'s corner',
+  twitterDescription: 'dotPast\'s links website',
+  twitterImage: '/ogimage.png'
+})
+
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      href: '/favicon.ico'
+    }
+  ]
+})
+
 </script>
