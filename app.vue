@@ -82,10 +82,6 @@ a {
 <script setup lang="ts">
 const route = useRoute();
 
-definePageMeta({
-  colorMode: 'dark',
-})
-
 useSeoMeta({
   title: 'dot\'s corner',
   ogTitle: 'dot\'s corner',
