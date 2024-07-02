@@ -12,7 +12,7 @@
           <UButton to="/what-i-worked-on" icon="tabler:hammer" size="lg" color="black" variant="solid" label="/ what i worked on" />
         </UButtonGroup class="rounded mr-4">
 
-        <img src="https://api.statusbadges.me/badge/status/585025499995045888?simple=true&style=flat-square" />
+        <img src="https://api.statusbadges.me/badge/status/585025499995045888?simple=true&style=flat-square" class="rounded"/>
       </div>
       <NuxtPage class="mt-2"/>
       <h6 class="mt-4">Status Badge: <NuxtLink to="https://statusbadges.me" target="_blank" class="text-sky-400">statusbadges.me</NuxtLink>; Icons: <NuxtLink to="https://iconify.design" target="_blank" class="text-sky-400">iconify.design</NuxtLink></h6>
