@@ -7,9 +7,9 @@
         </NuxtLink>
 
         <UButtonGroup>
-          <UButton to="/" icon="tabler:link" size="lg" color="black" variant="solid" label="/ links" />
-          <UButton to="/about" icon="tabler:user" size="lg" color="black" variant="solid" label="/ about" />
-          <UButton to="/what-i-worked-on" icon="tabler:hammer" size="lg" color="black" variant="solid" label="/ what i worked on" />
+          <UButton to="/" icon="tabler:link" size="lg" color="black" variant="solid" />
+          <UButton to="/about" icon="tabler:user" size="lg" color="black" variant="solid" />
+          <UButton to="/what-i-worked-on" icon="tabler:hammer" size="lg" color="black" variant="solid"  />
         </UButtonGroup class="rounded">
 
         <img src="https://api.statusbadges.me/badge/status/585025499995045888?simple=true&style=flat-square" class="rounded ml-4"/>
