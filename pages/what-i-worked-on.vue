@@ -11,7 +11,7 @@
         <UButton to="https://discord.gg/Mhe4btHW87" target="_blank" icon="tabler:brand-discord" size="lg" color="indigo" variant="solid" />
       </UButtonGroup>
 
-      <h3>Dikoland (🇷🇺)</h3>
+      <h3>Dikoland (🇷🇺, formerly)</h3>
       <UButtonGroup>
         <UButton to="https://dikoland.ru/" target="_blank" icon="tabler:world" size="lg" color="white" variant="solid" />
         <UButton to="https://discord.gg/apgCdEtu2w" target="_blank" icon="tabler:brand-discord" size="lg" color="indigo" variant="solid" />
