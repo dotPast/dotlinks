@@ -2,16 +2,16 @@
   <div>
     <div>
       <UButtonGroup>
-        <UTooltip text="Streams">
+        <UTooltip text="Streams. Sometimes coding, but mostly Minecraft.">
           <UButton to="https://twitch.tv/dotpast" target="_blank" icon="tabler:brand-twitch" size="lg" color="purple" variant="solid" label="/ dotpast" />
         </UTooltip>
-        <UTooltip text="Videos">
+        <UTooltip text="Videos. Mostly high effort ones.">
           <UButton to="https://youtube.com/@dotpast" target="_blank" icon="tabler:brand-youtube" size="lg" color="red" variant="solid" label="/ @dotpast" />
         </UTooltip>
-        <UTooltip text="VODs & Random Content">
-          <UButton to="https://youtube.com/@dotttpast" target="_blank" icon="tabler:brand-youtube" size="lg" color="red" variant="solid" label="/ @dotttpast" />
+        <UTooltip text="Videos, but worse. And also Twitch VODs.">
+          <UButton to="https://youtube.com/@dotpastunofficial" target="_blank" icon="tabler:brand-youtube" size="lg" color="red" variant="solid" label="/ @dotpastunofficial" />
         </UTooltip>
-        <UTooltip text="Open-Source">
+        <UTooltip text="Some stuff I made. Definetly will not haunt me in the future.">
           <UButton to="https://github.com/dotpast" target="_blank" icon="tabler:brand-github" size="lg" color="white" variant="solid" label="/ dotpast" />
         </UTooltip>
       </UButtonGroup>
