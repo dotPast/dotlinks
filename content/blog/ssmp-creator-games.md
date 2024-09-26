@@ -1,5 +1,5 @@
 ---
-title: 'Public To-Do List for SSMP Creator Games'
+title: 'SSMP Event To-Do'
 ---
 
 # Public To-Do List for SSMP Creator Games

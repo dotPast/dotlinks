@@ -1,22 +1,9 @@
 <template>
   <div>
-    <UCard class="center">
-      <div class="hstack">
-        <NuxtLink to="/">
-          <img src="https://avatars.githubusercontent.com/u/83116565" width="48" class="rounded-xl mr-4"/>
-        </NuxtLink>
-
-        <UButtonGroup>
-          <UButton to="/" icon="tabler:link" size="lg" color="black" variant="solid" />
-          <UButton to="/about" icon="tabler:user" size="lg" color="black" variant="solid" />
-          <UButton to="/what-i-worked-on" icon="tabler:hammer" size="lg" color="black" variant="solid"  />
-        </UButtonGroup class="rounded">
-
-        <img src="https://api.statusbadges.me/badge/status/585025499995045888?simple=true&style=flat-square" class="rounded ml-4"/>
-      </div>
-      <NuxtPage class="mt-2"/>
-      <h6 class="mt-4">Status Badge: <NuxtLink to="https://statusbadges.me" target="_blank" class="text-sky-400">statusbadges.me</NuxtLink>; Icons: <NuxtLink to="https://iconify.design" target="_blank" class="text-sky-400">iconify.design</NuxtLink>;</h6>
-    </UCard>
+    <NuxtLayout>
+      <NuxtPage/>
+      <h6 class="mt-4">Icons: <NuxtLink to="https://iconify.design" target="_blank">iconify.design</NuxtLink>; <span v-html="randomText"/></h6>
+    </NuxtLayout>
   </div>
 </template>
 
@@ -81,6 +68,9 @@ a {
 
 <script setup lang="ts">
 const route = useRoute();
+
+const splashes = ["Also try twitch.tv/dj_gamer816! wait i m", "(splash placeholder)", "Please wait 7 business days for a reply", "BK its been 3 months game night when", "SSMP event is the worst thing i made", "Actually that CAH deck is the worst one", "I coded SSMP event so hard intellij died", "splashes[6] is the worst splash", "Also try Project Remix!"]
+var randomText = splashes[Math.floor(Math.random()*splashes.length)]
 
 useSeoMeta({
   title: 'dot\'s corner',

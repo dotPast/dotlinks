@@ -1,8 +1,6 @@
 <template>
   <div>
     <div>
-      <h1>/ what i worked on</h1>
-
       <h3>Streamers SMP</h3>
       <UButtonGroup>
         <UButton to="https://streamerssmp.com/" target="_blank" icon="tabler:world" size="lg" color="white" variant="solid" />
@@ -11,10 +9,9 @@
         <UButton to="https://discord.gg/Mhe4btHW87" target="_blank" icon="tabler:brand-discord" size="lg" color="indigo" variant="solid" />
       </UButtonGroup>
 
-      <h3>Dikoland (🇷🇺, formerly)</h3>
+      <h3>Streamers SMP Creator Games</h3>
       <UButtonGroup>
-        <UButton to="https://dikoland.ru/" target="_blank" icon="tabler:world" size="lg" color="white" variant="solid" />
-        <UButton to="https://discord.gg/apgCdEtu2w" target="_blank" icon="tabler:brand-discord" size="lg" color="indigo" variant="solid" />
+        <UButton to="https://streamerssmp.com/en-eur/pages/creator-games" target="_blank" icon="tabler:world" size="lg" color="white" variant="solid" />
       </UButtonGroup>
     </div>
   </div>
